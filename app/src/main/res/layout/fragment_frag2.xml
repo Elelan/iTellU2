@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.frag2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icares2018"
+            android:id="@+id/event1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_below="@+id/event1"
+            android:text="ICARES 2018"
+            android:id="@+id/tv1"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:text="About this event"/>
+
+
+        <TextView
+            android:id="@+id/txtDayremain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="194dp"
+            android:text="93"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/txtDayremain"
+            android:layout_toEndOf="@+id/txtDayremain"
+            android:text="DAYS"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtLong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/txtDayremain"
+            android:text="93 DAYS 12:59:59"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/event2"
+            android:src="@drawable/gtar"
+            android:layout_below="@id/tv2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv3"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="GTAR 2018"
+            android:layout_below="@id/event2"/>
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About this Event"
+            android:layout_below="@id/tv3"/>
+    </RelativeLayout>
+</ScrollView>

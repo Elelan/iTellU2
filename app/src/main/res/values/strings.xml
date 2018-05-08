@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">iTell U</string>
+    <string name="itell_u">iTell-U</string>
+    <string name="hintuser">Username</string>
+    <string name="hintpw">Password</string>
+    <string name="txsign">Sign in</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_a_member">Already a member?</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="filler_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+        vitae semper quam. In a metus ut nisl pharetra hendrerit et a leo. Curabitur nec sapien
+        odio. Vestibulum a mollis felis. Cras molestie felis nibh, ut maximus mauris feugiat
+        tincidunt. Curabitur ultricies eros sed ipsum pulvinar vehicula.</string>
+
+
+    <string name="sign_out">Sign Out</string>
+    <string name="fresh_config">Config</string>
+    <string name="invite_menu_label">Invite</string>
+    <string name="cause_crash">Cause crash</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_chat">ChatActivity</string>
+
+
+</resources>
